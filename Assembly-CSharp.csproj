@@ -56,12 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Queen.cs" />
+    <Compile Include="Assets\Scripts\UnitControl\Queen.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scripts\Egg.cs" />
-    <Compile Include="Assets\Scripts\GenericBeeMovement.cs" />
-    <Compile Include="Assets\Scripts\BeeManager.cs" />
+    <Compile Include="Assets\Scripts\UnitControl\Egg.cs" />
+    <Compile Include="Assets\Scripts\UnitControl\GenericBeeMovement.cs" />
+    <Compile Include="Assets\Scripts\UnitControl\BeeManager.cs" />
     <Compile Include="Assets\Scripts\SpriteOutline.cs" />
+    <Compile Include="Assets\Scripts\FlowerManager.cs" />
+    <Compile Include="Assets\Scripts\Flower.cs" />
+    <Compile Include="Assets\Scripts\UnitControl\Drone.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Shaders\NewSurfaceShader.shader" />
