@@ -56,21 +56,27 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\SpriteOutline.cs" />
-    <Compile Include="Assets\Scripts\Flower.cs" />
-    <Compile Include="Assets\Scripts\UnitControl\Queen.cs" />
-    <Compile Include="Assets\Scripts\Managers\FlowerManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\ResourceManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
-    <Compile Include="Assets\Scripts\UnitControl\Egg.cs" />
-    <Compile Include="Assets\Scripts\UnitControl\GenericBeeMovement.cs" />
-    <Compile Include="Assets\Scripts\UnitControl\Drone.cs" />
-    <Compile Include="Assets\Scripts\PauseManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
-    <Compile Include="Assets\Scripts\UnitControl\BeeManager.cs" />
-    <Compile Include="Assets\Scripts\UnitControl\UnitStats.cs" />
-    <Compile Include="Assets\Scripts\UnitControl\GenericBee.cs" />
-    <Compile Include="Assets\Scripts\UnitControl\Worker.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\SpriteOutline.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\Flower.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\UnitControl\Queen.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\Managers\FlowerManager.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\Managers\ResourceManager.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\Managers\UIManager.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\UnitControl\Egg.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\UnitControl\UnitStats.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\UnitControl\GenericBeeMovement.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\UnitControl\GenericBee.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\UnitControl\Drone.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\Managers\InputManager.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\UnitControl\Worker.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\UnitControl\BeeManager.cs" />
+    <Compile Include="Assets\Scripts\EndScene Scripts\EndUIManager.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Shop Scripts\ShopManager.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\HoneycombLocations.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\Location.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\UnitControl\Jester.cs" />
+    <Compile Include="Assets\Scripts\GameScene Scripts\UnitControl\Suitor.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Shaders\NewSurfaceShader.shader" />
